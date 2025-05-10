@@ -36,6 +36,15 @@
       transition: padding 0.3s, background-color 0.3s;
       padding: 1rem 0;
     }
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28 255, 255, 255, 1 %29)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
     .navbar.scrolled {
       padding: 0.5rem 0;
       background-color: var(--color-dark) !important;
@@ -117,7 +126,7 @@
   <nav id="mainNav" class="navbar navbar-expand-lg shadow-lg">
     <div class="container">
       <a class="navbar-brand" href="#">Coach Deby</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navMenu">
